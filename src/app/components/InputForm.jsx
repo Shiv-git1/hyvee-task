@@ -79,8 +79,8 @@ const InputForm = () => {
 
       <UserInfoCard
         name={name || "Shiv"}
-        age={responses[0]?.age || "Some error occured"}
-        gender={responses[1]?.gender || "Some error occured"}
+        age={responses[0]?.age || "Could not predict!"}
+        gender={responses[1]?.gender || "Could not predict!"}
         country={
           responses[2]?.country.length > 0
             ? responses[2]?.country

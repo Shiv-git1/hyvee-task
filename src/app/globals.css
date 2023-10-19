@@ -36,7 +36,7 @@ progress[value] {
   background-color: whiteSmoke;
   border-radius: 3px;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5) inset;
-  color: royalblue;
+  color: rgb(47, 255, 50);
   position: relative;
   /* margin: 0 0 1.5em; */
 }
@@ -83,7 +83,7 @@ progress[value]::-moz-progress-bar {
       transparent 66%
     ),
     -moz-linear-gradient(top, rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.2)),
-    -moz-linear-gradient(left, #09c, #f44);
+    -moz-linear-gradient(left, rgb(47, 255, 50), rgb(72, 255, 255));
 
   background-size: 35px 20px, 100% 100%, 100% 100%;
   border-radius: 3px;
@@ -98,7 +98,7 @@ progress[value]::-moz-progress-bar {
 }
 
 .progress-bar span {
-  background-color: royalblue;
+  background-color: rgb(47, 255, 50);
   border-radius: 3px;
 
   display: block;
@@ -126,7 +126,7 @@ p[data-value]:after {
       transparent 66%
     ),
     -webkit-linear-gradient(top, rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.2)),
-    -webkit-linear-gradient(left, #09c, #f44);
+    -webkit-linear-gradient(left, rgb(47, 255, 50), rgb(72, 255, 255));
 }
 
 /* Loader */
