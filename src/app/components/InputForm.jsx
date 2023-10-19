@@ -50,9 +50,6 @@ const InputForm = () => {
     handleApiCalls(e);
   }, []);
 
-  console.log(responses);
-  console.log(name);
-
   return (
     <form className="mt-10" onSubmit={handleApiCalls}>
       <div className="w-full flex justify-center align-middle gap-10 mt-10">
