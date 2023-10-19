@@ -1,0 +1,24 @@
+/* Custom CSS */
+.item1 {
+  grid-area: first;
+  font-size: 24px;
+  font-weight: 600;
+  border: 1px solid white;
+  color: whitesmoke;
+  /* background-image: linear-gradient(to bottom right, red, yellow); */
+}
+.item2 {
+  grid-area: second;
+  border: 1px solid white;
+  color: whitesmoke;
+}
+
+.hero_section {
+  color: black;
+  margin-top: 60px;
+  border: 1px solid black;
+  height: 20vh;
+  display: grid;
+  grid-template-areas: "first first first second second second";
+  gap: 10px;
+}
